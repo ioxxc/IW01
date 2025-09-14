@@ -13,3 +13,11 @@ Ca exemplu v-om sterge backup-ul care l-am creeat in sarcina precedenta folosind
 Observam ca .tar.gz facut precedent este sters. Aceasta comanda poate fi utilizata cu orice tip de extensie (.txt, .zip, .rar, etc)
 
 chmod +x cleanup.sh, l-am folosit pentru a face fisierul executabil.
+
+Sarcina 3
+disk-usage.sh verifică cât spațiu ocupă un director (folder) pe disc și trimite un avertisment (pe e-mail sau în terminal) dacă utilizarea spațiului depășește un anumit prag (în procente). De asemenea, salvează loguri despre utilizarea spațiului într-un fișier disk_usage.log.
+
+Am implementat acest cod ca sa salveze un .log local, dar la fel sa trimita un mesaj printr-un bot de telegram, la user ID meu.
+![screenshot](image4.png)
+Observam ca a trimis un mesaj cu datele de usage si treshold si la fel a salvat un .log local.
+![screenshot](image5.png)
